@@ -1,44 +1,6 @@
-# Ejemplos para la asignarura Git Patt 3
+# Práctica 7
 
-## Distribución
+En esta práctica, se ha usado el ejemplo my-first-join como base y se ha completado para poder cumplir los objetivos.
 
-### Primera parte:
-
-- Tema 1: La web en la industria
-- [Tema 2: Protocolo HTTP](tema-2/README.md)
-- [Tema 3: HTML](tema-3/README.md)
-- [Tema 4: CSS](tema-4/README.md)
-- [Tema 5: Javascript](tema-5/README.md)
-- Tema 6: Estándares Jakarta EE
-- [Tema 7: Spring Boot](tema-7/README.md)
-
-### Segunda parte:
-
-- [Tema 8: Testing](tema-8/README.md)
-- Tema 9: Introducción a la persistencia de datos
-- [Tema 10: Acceso a base de datos relacionales (JDBC)](tema-10/README.md)
-- [Tema 11: Seguridad](tema-17/README.md)
-- Tema 12: Marketing Digital
-
-## ¿Como probar en el cloud?
-
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitt-3-pat/ejemplos-2021-2022)
-
-## ¿Como probar en local?
-
-````
-./mvnw clean verify
-./mvnw clean spring-boot:run -pl tema-3
-./mvnw clean spring-boot:run -pl tema-4
-./mvnw clean spring-boot:run -pl tema-5
-./mvnw clean spring-boot:run -pl tema-7/spring-boot-core
-./mvnw clean spring-boot:run -pl tema-7/spring-boot-thymeleaf
-./mvnw dependency:tree -pl tema-7/spring-boot-thymeleaf -Dscope=compile
-./mvnw dependency:tree -pl tema-7/spring-boot-thymeleaf-Dscope=test
-./mvnw versions:display-dependency-updates -pl tema-7/spring-boot-thymeleaf
-./mvnw versions:display-plugin-updates -pl tema-7/spring-boot-thymeleaf
-./mvnw clean spring-boot:run -pl tema-7/spring-boot-static-content
-./mvnw clean spring-boot:run -pl tema-7/spring-boot-actuator
-./mvnw clean spring-boot:run -pl tema-11/spring-boot-security
-./mvnw clean spring-boot:run -pl tema-11/spring-boot-security-jdbc
-````
+Se han realizado los joins de los Customers con las Orders.
+Además, se han añadido las funcionalidades de actualizar y eliminar Orders.
